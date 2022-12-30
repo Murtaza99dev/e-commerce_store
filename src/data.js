@@ -16,7 +16,6 @@ import {
   import BedImg from './assets/img/bed.png';
   import CupboardImg from './assets/img/cupboard.png';
   import LightingImg from './assets/img/lighting.png';
-  import Product1Img from './assets/img/products/product-1.png';
   import Product2Img from './assets/img/products/product-2.png';
   import Product3Img from './assets/img/products/product-3.png';
   import Product4Img from './assets/img/products/product-4.png';
@@ -30,7 +29,6 @@ import {
   import Avatar1Img from './assets/img/avatar-1.png';
   import Avatar2Img from './assets/img/avatar-2.png';
   import Avatar3Img from './assets/img/avatar-3.png';
-  import Avatar4Img from './assets/img/avatar-4.png';
   
   export const navigation = [
     {
@@ -138,13 +136,6 @@ import {
       {
         productList: [
           {
-            image: <Product1Img />,
-            icon: <IoMdAddCircle />,
-            name: 'Ceiling Light',
-            price: 75,
-            oldPrice: 82,
-          },
-          {
             image: <Product2Img />,
             icon: <IoMdAddCircle />,
             name: 'Wood Chair',
@@ -211,13 +202,6 @@ import {
       },
       {
         productList: [
-          {
-            image: <Product1Img />,
-            icon: <IoMdAddCircle />,
-            name: 'Ceiling Light',
-            price: 75,
-            oldPrice: 82,
-          },
           {
             image: <Product2Img />,
             icon: <IoMdAddCircle />,
